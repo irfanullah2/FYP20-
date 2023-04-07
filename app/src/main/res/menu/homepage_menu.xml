@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Done"
+        android:icon="@drawable/doneicon"
+        android:title="Done"
+        app:showAsAction="ifRoom"/>
+
+
+    <item  android:id="@+id/article"
+
+      android:title="Log out"
+      app:showAsAction="never"
+       android:onClick="Logout" />
+
+    <item  android:id="@+id/item3"
+
+        android:title="Setting"
+        android:icon="@drawable/articleicon"
+        app:showAsAction="never"
+        android:onClick="Setting"/>
+
+
+
+
+</menu>
